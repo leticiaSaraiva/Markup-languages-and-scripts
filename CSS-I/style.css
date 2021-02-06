@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Courier New", monospace;
+}
+
+.header{
+    padding: 10px;
+}
+
+article{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegador{
+    display: flex;
+    background-color: blue;
+    padding: 0;
+}
+
+.navegador > .botao-nav{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navegador > .botao-nav:hover{
+    background-color: rgb(131, 164, 255);
+}
+
+.botao-nav > a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown{
+    width: 280px;
+}
+
+.dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: rgb(0, 0, 156);
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown .dropdown-content .dropdown-button{
+    width: 100%;
+    height: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dropdown .dropdown-content .dropdown-button:hover{
+    background-color: rgb(113, 151, 255);
+}
+
+.navegador-lateral{
+    display: block;
+    background-color: blue;
+    padding: 0;
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.navegador-lateral > .botao-nav{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 30px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.navegador-lateral > .botao-nav:hover{
+    background-color: rgb(131, 164, 255);
+}
+
+.conteudo{
+    margin-left: 400px;
+    padding: 10px;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    height: 400px;
+    width: 600px;
+}
