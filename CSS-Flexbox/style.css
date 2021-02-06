@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Courier New", monospace;
+}
+
+.navegador{
+    display: flex;
+    background-color: rgb(140, 140, 140);
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.navegador > .botao-nav{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.navegador > .botao-nav:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+.container{
+    display: flex;
+}
+
+.container > .navegador-lateral-esquerdo{
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.container > .navegador-lateral-esquerdo .link-nav-esq{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container > .navegador-lateral-esquerdo .link-nav-esq:hover{
+    background-color: rgb(130, 130, 130);
+} 
+
+.container > .conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-grow: 3;
+}
+
+.container > .conteudo img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.container > .navegador-lateral-direito{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: rgb(170, 170, 170);
+    right: 0;
+}
+
+.container > .navegador-lateral-direito .link-nav-dir{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container > .navegador-lateral-direito .link-nav-dir:hover{
+    background-color: rgb(130, 130, 130);
+} 
+
+footer{
+    background-color: rgb(140, 140, 140);
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100wh;
+}
