@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+#navegador-superior {
+    width: 900px;
+    height: 54px;
+    margin: 0 auto;
+    background-color: #acd7f5;
+}
+
+#nome-rede-social{
+    background-color: rgba(255, 255, 255, 0.886);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 1px 2px 1px rgba(0, 53, 94, 0.4);
+    border-style: outset;
+    border-color: #3a97dac9;
+}
+
+#nome-rede-social a{
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: rgb(94, 94, 94);
+}
+
+#usuario-nav{
+    cursor: default;
+    float: right;
+    color: rgb(94, 94, 94);
+}
+
+#modal-header-id{
+    display: flex;
+    justify-content: center;
+}
+
+#modal-body-id{
+    display: flex;
+    justify-content: center;
+}
+
+#new-nome{
+    width: 450px;
+}
+
+#button-submit-name{
+    margin: 10px 0px 0px 0px;
+    float: right;
+}
+
+.container-style{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    min-height: calc(100% - 54px);
+}
+
+#content-list-groups{
+    background-color: #d5eeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#groups-item{
+    cursor: pointer;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 0px 2px 1px rgba(12, 56, 35, 0.1);
+}
+
+.active, #groups-item:hover{
+    background-color: #64a1c9a1;
+}
+
+#div-icone{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 1px rgba(12, 56, 35, 0.1);
+}
+
+#groups-item #span-name{
+    padding: 10px;
+    color: rgb(89, 89, 89);
+}
+
+#img-group{
+    width: 40px;
+}
+
+#form-new-group{
+    background-color: #7bcaffa1;
+    bottom: 0px;
+    padding: 30px 15px;
+}
+
+#form-new-mensagem{
+    background-color: #7bcaff62;
+    bottom: 0px;
+    padding: 20px;
+}
+
+#form-new-mensagem.hide{
+    display: none;
+}
+
+#no-select-group.hide{
+    display: none;
+}
+
+#form-new-group form, #form-new-mensagem form{
+    display: flex;
+    align-items: center;
+}
+
+#form-new-group button{
+    margin-left: 10px;
+}
+
+#form-new-mensagem button{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+#content-mensagens{
+    background-color: #def1ffa1;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea{
+    resize: none;
+}
+
+#mensagem-item{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.763);
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#mensagem-item p{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.mensagens-galeria{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
